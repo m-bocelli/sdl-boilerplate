@@ -14,3 +14,6 @@ debug_m:
 
 release_m:
 	$(CC) $(RELEASE_FLAGS) $(INCLUDE_PATHS) src/*.cpp && $(CC) *.o -o $(RELEASE_DIR)/$(EXEC_NAME) $(LINKER_FLAGS) $(LIB_MAC) && $(RELEASE_DIR)/$(EXEC_NAME) 
+
+clean:
+	rm *.o 
