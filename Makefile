@@ -11,4 +11,3 @@ EXEC_NAME = main
 debug_m:
 	$(CC) $(DEBUG_FLAGS) $(INCLUDE_PATHS) src/*.cpp && $(CC) *.o -o $(DEBUG_DIR)/$(EXEC_NAME) $(LINKER_FLAGS) $(LIB_MAC)  && $(DEBUG_DIR)/$(EXEC_NAME) 
 
-
